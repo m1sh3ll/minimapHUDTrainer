@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\minimap1.png" />
+    <None Remove="Assets\minimap2.png" />
+    <None Remove="Assets\minimap3.png" />
+    <None Remove="Assets\minimap4.png" />
+    <None Remove="Assets\minimap5.png" />
+    <None Remove="Voices\check-armor.mp3" />
+    <None Remove="Voices\check-armor.wav" />
+    <None Remove="Voices\check-armor2.wav" />
+    <None Remove="Voices\check-cash.mp3" />
+    <None Remove="Voices\check-cash.wav" />
+    <None Remove="Voices\check-minimap1.mp3" />
+    <None Remove="Voices\check-minimap1.wav" />
+    <None Remove="Voices\check-minimap2.wav" />
+    <None Remove="Voices\check-your-ammo.mp3" />
+    <None Remove="Voices\check-your-ammo.wav" />
+    <None Remove="Voices\check-your-ammo2.mp3" />
+    <None Remove="Voices\check-your-ammo2.wav" />
+    <None Remove="Voices\look-at-minimap.mp3" />
+    <None Remove="Voices\look-at-minimap.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\minimap1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\minimap2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\minimap3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\minimap4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\minimap5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Voices\check-armor.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Voices\check-armor2.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Voices\check-cash.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Voices\check-minimap1.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Voices\check-minimap2.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Voices\check-your-ammo.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Voices\check-your-ammo2.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Voices\look-at-minimap.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
