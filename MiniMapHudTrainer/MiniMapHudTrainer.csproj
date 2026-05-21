@@ -9,11 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Assets\minimap1.png" />
-    <None Remove="Assets\minimap2.png" />
-    <None Remove="Assets\minimap3.png" />
-    <None Remove="Assets\minimap4.png" />
-    <None Remove="Assets\minimap5.png" />
     <None Remove="Voices\check-armor.mp3" />
     <None Remove="Voices\check-armor.wav" />
     <None Remove="Voices\check-armor2.wav" />
@@ -31,19 +26,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Assets\minimap1.png">
+    <Content Include="Assets\ammo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\minimap2.png">
+    <Content Include="Assets\armor.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\minimap3.png">
+    <Content Include="Assets\cash.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\minimap4.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\minimap5.png">
+    <Content Include="Assets\map.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Voices\check-armor.wav">
