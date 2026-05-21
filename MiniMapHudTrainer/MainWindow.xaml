@@ -99,20 +99,16 @@
 
             <!-- DISPLAY AREA -->
             <Border Grid.Row="3"
-                Width="500"
-                Height="500"
-                HorizontalAlignment="Center"
-                VerticalAlignment="Center"
                 BorderBrush="#444444"
                 BorderThickness="2"
-                Background="#000000">
+                Background="#000000" Margin="80,26,80,25">
 
-                  <Grid>
+                  <Grid VerticalAlignment="Bottom">
 
                         <!-- MINIMAP IMAGE -->
                         <Image x:Name="imgMiniMap"
                        Visibility="Hidden"
-                       Stretch="Fill"/>
+                       Stretch="Uniform"/>
 
                         <!-- LARGE HUD TEXT -->
                         <TextBlock x:Name="txtHudAlert"
